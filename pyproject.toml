@@ -1,0 +1,7 @@
+[project]
+name = "demo-pkg"
+version = "0.0.1"
+dependencies = [
+    "arrow>=1.2.0",
+    'importlib-metadata; python_version<"3.8"',
+]
