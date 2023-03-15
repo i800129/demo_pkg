@@ -1,8 +1,9 @@
 """
-demo-pkg/main.py
+demo-pkg/demo.py
 ---
 
 Tiny demo showing an installable python package.
 """
 
-print("Hello, world!")
+def main():
+    print("Hello, world!")

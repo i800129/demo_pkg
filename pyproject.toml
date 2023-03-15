@@ -1,7 +1,11 @@
 [project]
-name = "demo-pkg"
+name = "demo_pkg"
 version = "0.0.1"
 dependencies = [
     "arrow>=1.2.0",
     'importlib-metadata; python_version<"3.8"',
 ]
+
+[project.scripts]
+# The demo script willl call the main function in demo_pkg.main module
+demo = "demo_pkg.demo:main"
