@@ -7,3 +7,5 @@ Tiny demo showing an installable python package.
 
 def main():
     print("Hello, world!")
+
+main()
